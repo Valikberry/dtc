@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+@import "tailwindcss";
+
+
+
+body, html {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+overflow-x: hidden;
+  background-color: white;
+  }
+
+body{
+  
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.font-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.web-width{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+
+.button-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #4AA9F840;
+  background-color: #4AA9F814;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.tab-button {
+  background: transparent;
+  color: #282828;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 13px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.tab-button.active {
+  background-color: #4AA9F8;
+  color: white;
+}
+
+
+
+
+
